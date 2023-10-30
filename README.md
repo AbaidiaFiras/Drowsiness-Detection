@@ -9,8 +9,8 @@ This project is a drowsiness detection system that uses a Convolutional Neural N
 - If the driver's eyes are detected as closed for a precise number of successive frames, an alert is triggered to notify the driver.
 
 # Dataset
-The dataset used for training the CNN model was obtained from Kaggle. It contains labeled images of both open and closed eyes, which are essential for training the model to make accurate predictions.
-Lien: [[kaggle datasets download -d kutaykutlu/drowsiness-detection](https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset)](https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset)
+- The dataset used for training the CNN model was obtained from Kaggle. It contains labeled images of both open and closed eyes, which are essential for training the model to make accurate predictions.
+- Lien: [[kaggle datasets download -d kutaykutlu/drowsiness-detection](https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset)](https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset)
 
 # Usage
 - Clone the repository to your local machine.
@@ -23,7 +23,7 @@ Lien: [[kaggle datasets download -d kutaykutlu/drowsiness-detection](https://www
 - OpenCV
 
 # File Structure
--drowsiness_demo.py: Run the infernce model.
+- drowsiness_demo.py: Run the infernce model.
 - drowsiness_train.py: Contains the CNN model architecture and training code.
 - haarcascade_frontalface.xml:  For face detection.
 - haarcascade_lefteye_2splits.xml: For left eye detection.
