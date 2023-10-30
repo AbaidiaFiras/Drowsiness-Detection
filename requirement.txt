@@ -1,0 +1,9 @@
+pip install roboflow
+pip install pygame
+pip install playsound
+pip install keras
+pip install tensorflow
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install scikit-learn
